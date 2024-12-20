@@ -1,0 +1,16 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django-specific ignores
+db.sqlite3
+*.log
+
+# Conda environment folder
+django_env/
+
+# System-specific ignores
+.DS_Store
+Thumbs.db
